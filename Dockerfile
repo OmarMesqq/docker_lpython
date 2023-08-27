@@ -1,5 +1,4 @@
-FROM ubuntu:22.04
-ENV SHELL=/bin/bash
+FROM alpine:3.14
 ENV DEBIAN_FRONTEND noninteractive
 ENV PATH="/root/miniforge3/bin:$PATH"
 
